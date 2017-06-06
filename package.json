@@ -1,0 +1,27 @@
+{
+  "name": "hubot-ssllabs",
+  "version": "0.0.1",
+  "description": "A hubot script to check SSL via SSLLabs API.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xurizaemon/hubot-ssllabs.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "ssllabs"
+  ],
+  "author": "xurizaemon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xurizaemon/hubot-ssllabs/issues"
+  },
+  "homepage": "https://github.com/xurizaemon/hubot-ssllabs#readme",
+  "dependencies": {
+    "node-ssllabs": "^0.5.0"
+  }
+}
